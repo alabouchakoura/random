@@ -1,0 +1,88 @@
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color:#e7edf2;
+    padding:2rem;
+    margin:0;
+}
+#buttons{
+ text-align: center;
+ margin-top:1rem;
+}
+.mybuttons{
+font-size:1.2rem;
+ border: 3px solid #00314f;
+     color:#000000;
+     background-color: rgb(181, 200, 235);
+    transition: transform 0.2s ease, background-color 0.2s ease;
+    border-radius:6px;
+    padding: 0.5rem 1rem;
+    margin:0.1rem 0.5rem;
+}
+#button1{
+    margin-right:1rem;
+}
+#button2{
+    margin-left:1rem;
+}
+#display{
+    margin-top:1.5rem;
+    text-align: center;
+}
+#result{
+    text-align: center;
+    font-size: 1.2rem;
+    padding: 0.5rem;
+    width: 100%;
+    max-width: 280px;
+    border: 2px solid #a3b5c6;
+    border-radius: 8px;
+    background-color: #f0f5fa;
+}
+#button1:hover{
+  background-color:green;
+  transform: scale(1.1);
+}
+#button2:hover{
+background-color: brown;
+transform: scale(1.1);
+}
+fieldset{
+    background-color:#f8fbff;
+    width:100%;
+    max-width:600px;
+    margin: auto;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    padding-bottom: 2rem;
+    padding-top:0;
+    border-radius:25px;
+    box-shadow: 0 8px 16px rgb(0, 0, 0);
+    box-sizing: border-box;
+    border: none;
+}
+legend{
+    font-size:1.6em;
+    font-weight:bold;
+    color:#00263e;
+    padding: 0 0.5rem;
+}
+label{
+    font-size: 1.1rem;
+    color:#00314f;
+    display: block;
+    margin-bottom:0rem;
+    margin-top:1rem;
+}
+.myinput{
+    font-size: 1.1rem;
+    padding: 0.2rem;
+    width:100%;
+    max-width: 280px;
+    border:2px solid #003669;
+    border-radius: 12px;
+   margin-bottom:0.3rem;
+   background-color:#e3f1ff;
+}
+#min{
+    margin-right:0;
+}
