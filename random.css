@@ -86,3 +86,9 @@ label{
 #min{
     margin-right:0;
 }
+#button1:active{
+background-color: rgb(0, 64, 0);
+}
+#button2:active{
+    background-color: rgb(115, 29, 29);
+}
